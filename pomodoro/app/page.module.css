@@ -1,0 +1,15 @@
+.page {
+    @apply w-screen h-screen flex items-center justify-center bg-gray-700;
+}
+
+.container {
+
+}
+
+.activeBtn {
+    @apply w-32 h-16 bg-green-600 text-white rounded;
+}
+
+.disableBtn {
+    @apply w-32 h-16 bg-red-600 text-white rounded;
+}
