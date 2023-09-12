@@ -68,7 +68,6 @@ export default function TimerComponent() {
                 <span className={`material-icons md-48 ${styles.icon}`}>{isActive ? 'pause_circle_outline' : 'play_circle_outline'}</span>
             </button>
           </div>
-          <span className={styles.spacer}></span>
           <div className={styles.btnRow}>
             <button onClick={handleWorkPhase} className={styles.defaultBtn}>
               <span className={`material-icons md-48 ${styles.icon}`}>work_outline</span>
