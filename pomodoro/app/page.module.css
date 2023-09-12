@@ -19,7 +19,8 @@
 }
 
 .spacer {
-    @apply w-full h-0.5 bg-white;
+    @apply w-full bg-white;
+    height: 1px;
 }
 
 .btnContainer {
