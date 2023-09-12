@@ -1,15 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .page {
-    @apply w-screen h-screen flex items-center justify-center bg-gray-700;
+    @apply w-screen h-screen flex items-center justify-center bg-gray-700 font-mono;
 }
 
 .container {
+    @apply flex flex-col w-1/4 gap-8;
+}
 
+.icon {
+    @apply text-3xl;
+}
+
+.clock {
+    @apply relative w-full flex flex-row items-center justify-center p-4 bg-gray-800 text-white text-4xl rounded;
+    font-family: 'DM Mono', monospace;
+}
+
+.spacer {
+    @apply w-full h-0.5 bg-white;
+}
+
+.btnContainer {
+    @apply flex flex-col gap-4;
+}
+
+.btnRow {
+    @apply flex flex-row gap-4;
+}
+
+.resetBtn {
+    @apply absolute h-full text-4xl right-4;
 }
 
 .activeBtn {
-    @apply w-32 h-16 bg-green-600 text-white rounded;
+    @apply w-full h-16 bg-green-600 text-white rounded;
 }
 
 .disableBtn {
-    @apply w-32 h-16 bg-red-600 text-white rounded;
+    @apply w-full h-16 bg-red-600 text-white rounded;
+}
+
+.defaultBtn {
+    @apply w-full h-16 flex flex-row justify-center items-center text-white border border-white rounded;
 }
