@@ -18,6 +18,11 @@
     font-family: 'DM Mono', monospace;
 }
 
+.spacer {
+    @apply w-full bg-white;
+    height: 1px;
+}
+
 .btnContainer {
     @apply flex flex-col gap-4;
 }
