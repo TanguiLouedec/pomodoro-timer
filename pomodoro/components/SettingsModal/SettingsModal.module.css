@@ -1,0 +1,11 @@
+.overlay {
+    @apply fixed z-10 h-full w-full flex justify-center items-center;
+}
+
+.content {
+    @apply relative w-fit h-fit bg-gray-700 border rounded text-white;
+}
+
+.close {
+    @apply absolute right-4 top-4 text-white;
+}

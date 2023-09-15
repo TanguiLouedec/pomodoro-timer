@@ -3,6 +3,7 @@
 
 .page {
     @apply w-screen h-screen flex items-center justify-center bg-gray-700 font-mono;
+    font-family: 'DM Mono', monospace;
 }
 
 .container {
@@ -45,4 +46,17 @@
 
 .defaultBtn {
     @apply w-full h-16 flex flex-row justify-center items-center text-white border border-white rounded;
+}
+
+.settingsForm {
+    @apply flex flex-col p-8 gap-8;
+    input {
+        @apply pl-2 outline-none h-16 text-4xl text-center bg-gray-800 rounded;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
 }
